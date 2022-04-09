@@ -19,7 +19,7 @@ body {
     text-align: justify;
 }
 
-.half-width h1 {
+h1 {
     font-size: 50px;
     color: gray;
 }
@@ -49,4 +49,45 @@ body {
 .bg-img {
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+}
+
+.Recipies-header {
+    text-align: center;
+
+}
+
+.Recipie-item {
+    width: 27%;
+    margin-left: 3%;
+    padding: 20px;
+
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.Recipie-item img {
+    width: 100%;
+}
+
+.followers {
+    display: flex;
+    width: 27%;
+    margin-left: 80px;
+
+
+}
+
+.box-shadow {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding-top: 50px;
+    margin-top: 100px;
+
 }
